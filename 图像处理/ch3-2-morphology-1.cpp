@@ -27,7 +27,7 @@ void Erode(int, void *)
 }
 int main()
 {
-   j = imread("data/j.png");
+   j = imread("img/j.png");
     //形态学的操作有膨胀和腐蚀，他们的运用有消除噪声，分割独立
     //元素以及连接相邻的元素。寻找极大极小值
     namedWindow( "Erode", WINDOW_AUTOSIZE );

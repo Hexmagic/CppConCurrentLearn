@@ -5,7 +5,7 @@ using namespace cv;
 
 int main()
 {
-    Mat img = imread("data/harris.jpg");
+    Mat img = imread("img/harris.jpg");
     Mat gray;
     Mat dst_norm, dst_norm_scaled;
     cvtColor(img, gray, COLOR_BGR2GRAY);

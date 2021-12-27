@@ -9,7 +9,7 @@ void show(String win_name ,Mat &m){
 }
 
 int main(){
-    Mat lena = imread("data/lena.jpg");
+    Mat lena = imread("img/lena.jpg");
     Mat dst;
     // 均值模糊，输出是核窗口内像素的均值
     

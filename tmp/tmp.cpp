@@ -7,7 +7,7 @@ using namespace cv;
 
 int main()
 {
-    Mat img = imread("data/j.png");        
+    Mat img = imread("img/j.png");        
     Mat img_gray;
     Mat board = Mat::ones(img.size(), CV_8U)*255;
     cvtColor(board, board, COLOR_GRAY2BGR);

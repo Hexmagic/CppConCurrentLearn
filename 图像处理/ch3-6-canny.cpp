@@ -20,7 +20,7 @@ int main()
         高定位性: 标识出的边缘要与图像中的实际边缘尽可能接近。
         最小响应: 图像中的边缘只能标识一次。
     */    
-    Mat lena = imread("data/lena.jpg");
+    Mat lena = imread("img/lena.jpg");
     Mat blured_lena;
     GaussianBlur(lena, blured_lena, Size(3, 3), 0);
     Mat out;

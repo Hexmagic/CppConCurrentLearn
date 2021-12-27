@@ -11,7 +11,7 @@ int main(){
         将所得结果放到与锚点对应的像素上；
         对图像所有像素重复上述过程。
     */
-    Mat img = imread("data/apple.jpg");
+    Mat img = imread("img/apple.jpg");
     
     Mat ker = Mat::ones(Size(3, 5), CV_32F)/9;
     Mat dst;

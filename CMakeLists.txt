@@ -1,6 +1,15 @@
 project(learn)
 cmake_minimum_required(VERSION 3.17)
-set(OpenCV_DIR "C:/Users/mix/opencv/build/x64/vc15/lib")
+
 find_package(OpenCV REQUIRED)
-add_executable(test project/test.cpp)
-target_link_libraries(test ${OpenCV_LIBS})
+include_directories(
+    深度网络/include
+)
+add_executable(doc project/doc.cpp)
+target_link_libraries(doc ${OpenCV_LIBS})
+
+add_executable(tmp project/tmp.cpp)
+target_link_libraries(tmp ${OpenCV_LIBS})
+
+add_executable(yolov3-test project/yolov3-test.cpp)
+target_link_libraries(yolov3-test ${OpenCV_LIBS})
