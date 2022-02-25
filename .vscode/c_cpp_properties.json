@@ -3,11 +3,14 @@
         {
             "name": "Mac",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/usr/local/include/opencv4",
+                "/usr/local/include/eigen3",
+
             ],
             "defines": [],
             "macFrameworkPath": [],
-            "compilerPath": "/usr/local/bin/gcc-10",
+            "compilerPath": "/usr/local/bin/gcc-11",
             "intelliSenseMode": "macos-gcc-x64",
             "configurationProvider": "ms-vscode.cmake-tools"
         }
